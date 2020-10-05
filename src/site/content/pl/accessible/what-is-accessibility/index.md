@@ -8,6 +8,7 @@ description: |
   An accessible site is one whose content can be accessed regardless of any
   user's impairments, and whose functionality can also be operated by the most
   diverse range of users possible.
+translated: 2020-10-05
 ---
 
 An accessible site is one whose content can be accessed regardless of any user's

@@ -12,6 +12,7 @@ description: |
   If you have good vision, it's easy to assume that everyone perceives colors, or text legibility, the same way you do — but of course that's not the case.
 tags:
   - accessibility
+translated: 2020-10-05
 ---
 
 If you have good vision, it's easy to assume that everyone perceives colors,

@@ -7,6 +7,7 @@ date: 2018-11-18
 description: |
   By using the correct elements for headings and landmarks, you can dramatically
   improve the navigation experience for users of assitive technology.
+translated: 2020-10-05
 ---
 
 {% include 'content/lighthouse-accessibility/why-headings.njk' %}

@@ -8,6 +8,7 @@ description: |
   When creating a layout using CSS, you need to take care that you don't create a disconnected experience for users who are navigation with the keyboard.
 tags:
   - accessibility
+translated: 2020-10-05
 ---
 
 The order of content in your document is important for the accessibility of your site.

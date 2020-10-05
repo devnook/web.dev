@@ -12,6 +12,7 @@ description: |
   It's important that interactive elements have enough space around them, when used on a mobile or touchscreen device. This will help everyone, but especially those with motor impairments.
 tags:
   - accessibility
+translated: 2020-10-05
 ---
 
 When your design is displayed on a mobile device,

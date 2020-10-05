@@ -9,6 +9,7 @@ description: |
   elements must have proper labels or text alternatives. A label or text
   alternative gives an element its accessible name, one of the key properties
   for expressing element semantics in the accessibility tree.
+translated: 2020-10-05
 ---
 
 In order for a screen reader to present a spoken UI to the user, meaningful

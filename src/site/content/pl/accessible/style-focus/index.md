@@ -8,6 +8,7 @@ description: |
   The focus indicator (often signified by a "focus ring") identifies the currently
   focused element. For users who are unable to use a mouse, this indicator is
   extremely important, as it acts as a stand-in for their mouse-pointer.
+translated: 2020-10-05
 ---
 
 The focus indicator (often signified by a "focus ring") identifies the currently

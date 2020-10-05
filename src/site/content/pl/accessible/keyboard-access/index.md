@@ -10,6 +10,7 @@ description: |
   shortcuts to be more efficient and productive. Having a good keyboard
   navigation strategy for your application creates a better experience for
   everyone.
+translated: 2020-10-05
 ---
 
 Many different users rely on the keyboard to navigate applications—from users

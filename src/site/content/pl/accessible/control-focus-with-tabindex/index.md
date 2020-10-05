@@ -8,6 +8,7 @@ description: |
   Standard HTML elements such as <button> or <input> have keyboard accessibility
   built-in for free. If you're building custom interactive components, use
   tabindex to ensure that they're keyboard accessible.
+translated: 2020-10-05
 ---
 
 Standard HTML elements such as `<button>` or `<input>` have keyboard accessibility
