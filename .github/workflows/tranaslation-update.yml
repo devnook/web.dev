@@ -1,0 +1,15 @@
+name: Update translated date
+on:
+  pull_request:
+    branches:
+      - i18n-gitlocalize
+
+jobs:
+  translation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
+
