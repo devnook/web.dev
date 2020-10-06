@@ -1,11 +1,11 @@
-name: Update translated date
+name: Update translated date 2
 on:
   pull_request:
     branches:
       - i18n-gitlocalize
 
 jobs:
-  translation:
+  translation2:
     runs-on: ubuntu-latest
     steps:
       - name: Branch name
