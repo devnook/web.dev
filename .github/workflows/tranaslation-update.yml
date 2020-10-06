@@ -8,8 +8,6 @@ jobs:
   translation:
     runs-on: ubuntu-latest
     steps:
-      - name: Extract branch name
-        shell: bash
-        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-        id: extract_branch
+      - name: Branch name
+        run: echo running on branch ${GITHUB_REF##*/}
 
