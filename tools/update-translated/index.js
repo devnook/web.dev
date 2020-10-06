@@ -8,7 +8,6 @@ const fs = require('fs');
 const path = require('path');
 const moment = require('moment');
 
-const RE_UPDATED = /^translated:\s?(.*?)\n/m;
 const translatedFileRegExp = /site\/content\/(?!en).*\/(.*)\.md/;
 
 function isTranslatedFile(fileName) {
@@ -27,8 +26,8 @@ const run = async () => {
     const content = fs.existsSync(newFile)
       ? JSON.parse(fs.readFileSync(newFile))
       : {};
-    content["translated"] = now;
-    fs.writeFileSync(newFile, JSON.stringify({"translated": now}))
+    content['translated'] = now;
+    fs.writeFileSync(newFile, JSON.stringify({translated: now}));
     console.log(`Set translated: ${now} for ${changedFile}`);
   }
 };
