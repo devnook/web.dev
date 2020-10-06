@@ -13,3 +13,33 @@ jobs:
 
       - name: Branch name
         run: echo running on branch ${{ github.head_ref }}
+
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Install
+        run: npm ci
+
+      - name: Get changed files
+        id: files
+        uses: jitterbit/get-changed-files@v1
+        with:
+          format: 'json'
+
+      - name: Update translated field
+        run: npm run translated -- ${{ steps.files.outputs.all }}
+
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action: Update translated date"
+          git commit -am "Update translated date"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.head_ref }}
+
