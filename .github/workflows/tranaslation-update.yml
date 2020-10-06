@@ -8,9 +8,8 @@ jobs:
   translation2:
     runs-on: ubuntu-latest
     steps:
-      - name: Git checkout
+      - name: Checkout
         uses: actions/checkout@v2
 
       - name: Branch name
-        run: echo running on branch ${GITHUB_REF}
-
+        run: echo running on branch ${{ github.head_ref }}
